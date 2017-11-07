@@ -1,7 +1,7 @@
 ---
 applications:
-- services:
-  - discovery-service
-  - conversation-service
+- name: watson-test-UPS
+  disk_quota: 256M
+  instances: 1
   path: build/libs/conversation-with-discovery-0.1-SNAPSHOT.war
   memory: 512M
