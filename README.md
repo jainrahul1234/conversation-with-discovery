@@ -165,7 +165,7 @@ For more information on workspaces, see the full  [Conversation service  documen
 ### Running in BlueMix 
 
 1. Use the BlueMix CLI command 'bx app push' to push the app in bluemix. 
-2. No need to mention the service name in mainfest file. 
+2. No need to mention the service name in manifest file. 
 3. Once app has been started in BlueMix follow the below command to add creadetional of Conversation & discovery to make connection. 
 
 ### Adding environment variables in Bluemix
