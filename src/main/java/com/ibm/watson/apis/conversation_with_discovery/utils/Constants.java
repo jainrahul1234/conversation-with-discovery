@@ -29,7 +29,8 @@ public class Constants {
   public static final String CONVERSATION_VERSION = ConversationService.VERSION_DATE_2016_09_20;
 
   /** The Constant DISCOVERY_FIELD_BODY. */
-  public static final String DISCOVERY_FIELD_BODY = "contentHtml";
+  // public static final String DISCOVERY_FIELD_BODY = "contentHtml";
+  public static final String DISCOVERY_FIELD_BODY = "body";
 
   /** The Constant DISCOVERY_FIELD_CONFIDENCE. */
   public static final String DISCOVERY_FIELD_CONFIDENCE = "score";
@@ -38,7 +39,8 @@ public class Constants {
   public static final String DISCOVERY_FIELD_ID = "id";
 
   /** The Constant DISCOVERY_FIELD_SOURCE_URL. */
-  public static final String DISCOVERY_FIELD_SOURCE_URL = "sourceUrl";
+  //public static final String DISCOVERY_FIELD_SOURCE_URL = "sourceUrl";
+  public static final String DISCOVERY_FIELD_SOURCE_URL = "textHtml";
 
   /** The Constant DISCOVERY_FIELD_TITLE. */
   public static final String DISCOVERY_FIELD_TITLE = "title";
